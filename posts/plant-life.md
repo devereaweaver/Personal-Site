@@ -1,8 +1,9 @@
 ---
 layout: layout.njk
-title: About
+title: Plant Life
 ---
 <div class="animate">
-Hi! I'm D. This site is my digital garden.
+
+*Coming soon...🪴*
 
 </div>

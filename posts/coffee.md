@@ -1,8 +1,10 @@
 ---
 layout: layout.njk
-title: About
+title: Coffee
 ---
+
 <div class="animate">
-Hi! I'm D. This site is my digital garden.
+
+*Coming soon...☕️*
 
 </div>

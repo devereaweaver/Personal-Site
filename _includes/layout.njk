@@ -9,28 +9,30 @@
 <script src="/js/main.js"></script>
 <body>
   <header>
-    <h1>Welcome to Devere's World</h1>
+    <h1 id="title"><em>Welcome to D's World</em></h1>
     <p>A hodgepodge of personal interests</p>
     <button id="darkModeToggle" style="margin: 1rem;">Toggle Dark Mode</button>
   </header>
 
-  <nav>
-    <a href="/">Home</a>
-    <a href="/software-projects/">Software Projects</a>
-    <a href="/coffee-corner/">Coffee Corner</a>
-    <a href="/tea-herbalism/">Tea & Herbalism</a>
-    <a href="/plant-life/">Plant Life</a>
-    <a href="/strength-power/">Strength & Power</a>
-    <a href="/posts/reading-list/">Reading List</a>
-    <a href="/about/">About</a>
-  </nav>
+<nav>
+  <ul class="navbar">
+    <li><a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
+    <li><a href="/about/" class="{% if page.url == '/about/' %}active{% endif %}">About</a></li>
+    <li><a href="/posts/reading-list/" class="{% if page.url == '/posts/reading-list/' %}active{% endif %}">Reading List</a></li>
+    <li><a href="/posts/programming/" class="{% if page.url == '/posts/programming/' %}active{% endif %}">Programming</a></li>
+    <li><a href="/posts/plant-life/" class="{% if page.url == '/posts/plant-life/' %}active{% endif %}">Plant Life</a></li>
+    <li><a href="/posts/coffee/" class="{% if page.url == '/posts/coffee/' %}active{% endif %}">Coffee</a></li>
+    <li><a href="/posts/tea-herbalism/" class="{% if page.url == '/posts/tea-herbalism/' %}active{% endif %}">Tea & Herbalism</a></li>
+  </ul>
+</nav>
+
 
   <main>
     {{ content | safe }}
   </main>
 
   <footer>
-    <p>&copy; 2025 Devere's Website</p>
+    <p>&copy; 2025 D's Website</p>
   </footer>
 </body>
 </html>
