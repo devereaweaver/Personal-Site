@@ -1,0 +1,11 @@
+---
+layout: layout.njk
+---
+{% if backLink %}
+  <a href="{{ backLink }}" class="accent-word">{{ backText }}</a>
+{% endif %}
+
+<article>
+  <h1>{{ title }}</h1>
+  {{ content | safe }}
+</article>

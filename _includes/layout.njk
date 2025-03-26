@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ title }}</title>
-  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
 </head>
-<script src="/js/main.js"></script>
+<script src="/assets/js/main.js"></script>
 <body>
   <header>
     <h1 id="title"><em>Welcome to D's World</em></h1>
@@ -17,12 +17,13 @@
 <nav>
   <ul class="navbar">
     <li><a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
-    <li><a href="/about/" class="{% if page.url == '/about/' %}active{% endif %}">About</a></li>
-    <li><a href="/posts/reading-list/" class="{% if page.url == '/posts/reading-list/' %}active{% endif %}">Reading List</a></li>
-    <li><a href="/posts/programming/" class="{% if page.url == '/posts/programming/' %}active{% endif %}">Programming</a></li>
-    <li><a href="/posts/plant-life/" class="{% if page.url == '/posts/plant-life/' %}active{% endif %}">Plant Life</a></li>
-    <li><a href="/posts/coffee/" class="{% if page.url == '/posts/coffee/' %}active{% endif %}">Coffee</a></li>
-    <li><a href="/posts/tea-herbalism/" class="{% if page.url == '/posts/tea-herbalism/' %}active{% endif %}">Tea & Herbalism</a></li>
+    <li><a href="/reading-list/" class="{% if page.url == '/reading-list/' %}active{% endif %}">Reading List</a></li>
+    <li><a href="/programming/" class="{% if page.url == '/programming/' %}active{% endif %}">Programming</a></li>
+    <li><a href="/plant-life/" class="{% if page.url == '/plant-life/' %}active{% endif %}">Plant Life</a></li>
+    <li><a href="/coffee/" class="{% if page.url == '/coffee/' %}active{% endif %}">Coffee</a></li>
+    <li><a href="/tea-herbalism/" class="{% if page.url == '/tea-herbalism/' %}active{% endif %}">Tea & Herbalism</a></li>
+    <li><a href="/strength-power/" class="{% if page.url == '/strength-power/' %}active{% endif %}">Strength Training</a></li>
+    <li><a href="/music/" class="{% if page.url == '/music/' %}active{% endif %}">Music</a></li>
   </ul>
 </nav>
 
