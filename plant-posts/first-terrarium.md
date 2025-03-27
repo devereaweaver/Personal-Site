@@ -1,6 +1,6 @@
 ---
 title: "First Terrarium"
-Dracaena Date: 2025-03-25
+Date: 2025-03-25
 tags: ["plantPosts"]
 layout: post.njk
 backLink: "/plant-life/"

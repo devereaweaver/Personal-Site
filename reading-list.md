@@ -6,7 +6,7 @@ title: Reading List
 
 ## Favorite Reads
 
-<span class="accent-word">**Disclaimer**</span>: *I'm not sponsored by nor do I receive compensation from any of the following authors or publishers, these are simply some of my favorite books about various topics. This list is also a work in progress.*
+<span class="accent-word">**Disclaimer**</span>: *I'm not sponsored by nor do I receive compensation from any of the following authors or publishers, these are simply some of my favorite books and/or books I'm currently reading about various topics. This list is also a work in progress.*
 
 
 ### <span id="genres">Genres</span>
