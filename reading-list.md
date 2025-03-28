@@ -103,12 +103,16 @@ title: Reading List
 
 <div class="book-row">
   <div class="book">
-    <p><em>The Demon-Haunted World</em></p>
+    <p><em><a class="accent-word" href="https://www.amazon.com/Demon-Haunted-World-Science-Candle-Dark/dp/0345409469/ref=sr_1_1?crid=3RURFEPXPV9J2&dib=eyJ2IjoiMSJ9.ms2M3LmQ0eJvE1u7gc9Ixva3UfB4k459108KX_a6ps7U1RDhNRnqfrcCg3n7bBSG2iReOdeppXRWufoFL3qaMZ4VLePxu3mbHxkQ8z9_afVar-Do2NQt6xorT0-ZEZmLhamsnuQg8ojd_yGG_S6nx6qVbAH3PDB3gS1GrU6-Ag6VvuYDXM9GCO3G9d9OdGw1LqumPoM0gqQ73Qz9UPrrl21-Dgdk3SqQ72riMfuK020.GRFhx1JmeiSs3Zqf6bnlO2EGGgyXHiM6a77f_jMD608&dib_tag=se&keywords=demon+haunted+world&qid=1743163027&s=books&sprefix=demon+haunted+world%2Cstripbooks%2C66&sr=1-1">The Demon-Haunted World</a></em></p>
     <img src="/assets/images/tdhw.jpg" alt="Demon-Haunted World" />
   </div>
   <div class="book">
-    <p><em>Welcome to the Universe</em></p>
+    <p><em><a class="accent-word" href="https://www.amazon.com/Welcome-Universe-Neil-deGrasse-Tyson/dp/0691157243/ref=tmm_hrd_swatch_0">Welcome to the Universe</a></em></p>
     <img src="/assets/images/wttu.jpg" atl="Welcome to the Universe">
+  </div>
+  <div class="book">
+    <p><em><a class="accent-word" href="https://www.amazon.com/Botany-Gardeners-Fourth-Introduction-Science/dp/1643261436">Botany for Gardeners</a></em></p>
+    <img src="/assets/images/b4g.jpg" atl="Welcome to the Universe">
   </div>
 </div>
 
